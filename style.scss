@@ -27,21 +27,32 @@
 //   color: lightcyan;
 //   text-decoration: underline;
 // }
- * {
-   margin: 0 auto;
-   padding: 0;
-   box-sizing: border-box;
- }
 
- body {
-   background-color: lightcyan;
- }
+* { 
+  box-sizing: border-box;
+}
+body, html {
+  padding: 0; margin: 0;
+}
 
-.bg-photo {
-  background-image: url("./images/bg-strawberry.jpg")  ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  // height: 50vh;
-  height: 640px;
+.site-wrapper {
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  min-height: 100vh;
+}
+
+nav {
+  height: 2em;
+  background-color: lightcoral;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  height: 2em;
+  background-color: lightcoral;
+  overflow:hidden;
 }
