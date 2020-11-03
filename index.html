@@ -30,7 +30,7 @@
       O nama
        <strong> Kontakt</strong>   -->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md ">
       <a class="navbar-brand" href="#">LOGO</a>
       <button
         class="navbar-toggler"
@@ -47,21 +47,117 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Proizvodi</a>
+            <a class="nav-link" href="#proizvodi">Proizvodi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">O nama</a>
+            <a class="nav-link" href="#o-nama">O nama</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontakt</a>
+            <a class="nav-link" href="#kontakt">Kontakt</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <section id="jumbotron">
-      <h1 class="text-center">mali ranac</h1>
+      <h1 class="text-center">mali <span></span> ranac</h1>
     </section>
+
+    <section id="proizvodi" class="mt-5">
+      <h2 class="text-center mb-4">Proizvodi</h2>
+      <div class="row align-items-center jagode">
+        <div class="col-sm-6 ">
+          <img src="./images/photo.jpg" class="img-fluid " alt="" />
+        </div>
+        <div class="col-sm-6 ">
+          <h3 class="text-center">Jagode</h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+          molestias voluptates fugit minus iure possimus, quod tempore,
+          inventore soluta commodi deleniti tempora aliquid dolores nemo laborum
+          hic saepe quibusdam nisi recusandae? Obcaecati eos alias error omnis
+          expedita recusandae suscipit dignissimos, reiciendis odio magnam optio
+          deleniti iusto. Id cum explicabo hic saepe quisquam, ratione autem rem
+          amet, officia voluptates aspernatur inventore illum esse quis, quasi
+          doloremque cumque a? Iste, voluptates sed?
+        </div>
+      </div>
+
+      <div class="row align-items-center lesnici mt-4">
+        <div class="col-md-6  mt-5">
+          <h3 class="text-center">Lešnici</h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+          molestias voluptates fugit minus iure possimus, quod tempore,
+          inventore soluta commodi deleniti tempora aliquid dolores nemo laborum
+          hic saepe quibusdam nisi recusandae? Obcaecati eos alias error omnis
+          expedita recusandae suscipit dignissimos, reiciendis odio magnam optio
+          deleniti iusto. Id cum explicabo hic saepe quisquam, ratione autem rem
+          amet, officia voluptates aspernatur inventore illum esse quis, quasi
+          doloremque cumque a? Iste, voluptates sed?
+        </div>
+
+        <div class="col-md-6">
+          <img src="./images/photo2.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="o-nama" class="mt-5 mb-5">
+      <h2 class="text-center mb-4">O nama</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eveniet
+          reprehenderit molestiae optio odio officiis accusamus illum expedita
+          doloribus? Unde doloremque veniam ratione nesciunt molestias
+          voluptates sint suscipit laudantium reprehenderit itaque culpa quas at
+          nam repellat qui maiores perferendis harum, officia reiciendis eius
+          obcaecati! Aspernatur repellat deleniti mollitia quam porro!
+        </div>
+        <div class="col-md-4">
+          <img src="./images/photo3.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eveniet
+          reprehenderit molestiae optio odio officiis accusamus illum expedita
+          doloribus? Unde doloremque veniam ratione nesciunt molestias
+          voluptates sint suscipit laudantium reprehenderit itaque culpa quas at
+          nam repellat qui maiores perferendis harum, officia reiciendis eius
+          obcaecati! Aspernatur repellat deleniti mollitia quam porro!
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="mt-5">
+      <h2 class="text-center mb-4">Kontakt</h2>
+      <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="name">Ime</label>
+          <input type="text" class="form-control" placeholder="Prcko" />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">E-mail</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="prcko@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Tekst poruke</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Prcko pederu"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-secondary">Ćao!</button>
+      </div>
+      </form>
+    </section>
+
+    <footer class="text-center mt-5">Sva prava zadržana. <br> 2020 &#169; maliranac.rs</footer>
 
     <script src="script.js"></script>
     <script
