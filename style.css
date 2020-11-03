@@ -7,20 +7,45 @@ body,
 html {
   padding: 0;
   margin: 0;
+  text-align: justify;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-#jumbotron {
-  background: lightcyan;
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
 }
 
 h1 {
   padding: 70px 0;
-  font-size: 7em;
+  font-size: 6.5em;
+  letter-spacing: 2px;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+#proizvodi,
+#o-nama {
+  padding: 0 20px;
+}
+
+.jagode {
+  background: lightpink;
+}
+
+.lesnici {
+  background: #dc8450;
 }
 
 footer {
-  height: 2em;
-  background-color: lightcoral;
+  border-top: 1px solid black;
   overflow: hidden;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
