@@ -4,10 +4,11 @@
 body,
 html {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   text-align: justify;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  max-width: 1360px;
 }
 
 a {
@@ -33,21 +34,25 @@ h2 {
 
 #proizvodi,
 #o-nama {
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 .jagode {
-  background: lightpink;
+  // background: lightpink;
+  border: 3px solid #ececae;
+  // padding: 10px;
 }
 
 .lesnici {
-  background: #dc8450;
+  // background: #dc8450;
+  border: 3px solid #dc8450;
+  padding: 10px;
 }
 
 footer {
   // height: 2em;
   // background-color: lightcoral;
-  border-top: 1px solid black;
+  // border-top: 1px solid black;
   overflow: hidden;
   font-size: 12px;
 }
