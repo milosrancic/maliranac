@@ -38,6 +38,7 @@ h2 {
 
 .jagode {
   border: 3px solid #ececae;
+  padding: 10px;
 }
 
 .lesnici {
@@ -48,5 +49,9 @@ h2 {
 footer {
   overflow: hidden;
   font-size: 12px;
+}
+
+textarea {
+  resize: none;
 }
 /*# sourceMappingURL=style.css.map */

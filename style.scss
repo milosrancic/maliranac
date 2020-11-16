@@ -40,7 +40,7 @@ h2 {
 .jagode {
   // background: lightpink;
   border: 3px solid #ececae;
-  // padding: 10px;
+  padding: 10px;
 }
 
 .lesnici {
@@ -55,4 +55,8 @@ footer {
   // border-top: 1px solid black;
   overflow: hidden;
   font-size: 12px;
+}
+
+textarea {
+  resize: none;
 }
